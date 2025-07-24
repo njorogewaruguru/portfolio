@@ -60,65 +60,65 @@ section h2 {
 .intro-media img {
   width: 48%;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .skills-list {
-    background-color: #e3f2fd;
-    padding: 1rem;
-    border-radius: 6px;
-  }
-  
-  /* Work section */
-  #work a {
-    color: #1a73e8;
-    text-decoration: underline;
-  }
-  
-  /* Resume section */
-  .resume-download a {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  /* Form styling */
-  form {
-    max-width: 500px;
-    margin: auto;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-    background-color: #4a90e2;
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #357ab8;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #ddd;
-    color: #333;
-    font-size: 0.9rem;
-  }
+  background-color: #e3f2fd;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Work section */
+#work a {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+/* Resume section */
+.resume-download a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Form styling */
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #357ab8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+  color: #333;
+  font-size: 0.9rem;
+}
