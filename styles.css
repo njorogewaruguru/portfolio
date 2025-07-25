@@ -48,6 +48,15 @@ section {
 section h2 {
   color: #4a90e2;
 }
+.intro-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 45%;
+  height: 400px;
+  margin: 0 auto;
+}
 
 .intro-media {
   display: flex;
@@ -55,17 +64,20 @@ section h2 {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .intro-media video,
-.intro-media img {
-  width: 48%;
+.intro-media img,
+.intro-media iframe {
+  width: 45%;
+  height: 400px;
   border-radius: 8px;
+  margin: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .skills-list {
   background-color: #e3f2fd;
   padding: 1rem;
+  width: 50%;
   border-radius: 6px;
 }
 

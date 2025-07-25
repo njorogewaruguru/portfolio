@@ -23,12 +23,20 @@
     <!-- introduction video -->
     <section>
       <div class="intro-media">
-        <h2>Intro Video</h2>
-        <video width="45%" height="400" controls autoplay muted loop>
+        <div class="intro-heading"><h2 id="intro-header">Intro Video</h2></div>
+        <video autoplay muted loop>
           <source src="video/coding.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <img src="image/coding.jpg" width="45%" height="400" alt="" />
+        <img src="image/coding.jpg" alt="" />
+        <iframe
+          src="https://www.youtube.com/embed/qz0aGYrrlhU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        >
+        </iframe>
       </div>
     </section>
 
@@ -54,15 +62,14 @@
       <h3>Project 1</h3>
       <p>
         Here is a link to the first project I made at Gomycode. From this
-        project I learnt about git and github.<a
-          href="https://github.com/njorogewaruguru/FirstRepo"
-        ></a>
+        project I learnt about git and github
+        <a href="https://github.com/njorogewaruguru/FirstRepo">FirstRepo </a>
       </p>
       <h3>Project 2</h3>
       <p>
         Here is the second project I made as an assignment to practice what I
-        had learnt on Git and Github.
-        <a href="https://github.com/njorogewaruguru/learn_git"></a>
+        had learnt on Git and Github
+        <a href="https://github.com/njorogewaruguru/learn_git"> Learn Git</a>
       </p>
     </section>
     <!-- resume section -->
@@ -74,15 +81,14 @@
     <section id="contact">
       <h2>Contact me</h2>
       <form action="#" method="post">
-        <label for="name">Name:</label><br />
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required /><br />
 
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message" rows="4" required></textarea
-        ><br />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
         <input type="submit" value="Send" />
       </form>
